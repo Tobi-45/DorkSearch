@@ -10,4 +10,4 @@ DorkSearch is a sleek web tool for bug bounty hunters and security pros. It uses
 + Integration with GitHub, Shodan, and Censys
 - Historical data from Web Archive
 
-## Checkout the tool [here](https://tobi-45.github.io/DorkSearch/index.html)
+### Checkout the tool [here](https://tobi-45.github.io/DorkSearch/index.html)
