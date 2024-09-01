@@ -208,6 +208,14 @@
                 <button class="fsbutton" onclick="googleSearch(57)">Database Backup</button>
             </div>
         </div>
+         <div class="row">
+            <div class="col-md-4">
+                <button class="fsbutton" onclick="googleSearch(58)">cmd page #1</button>
+            </div>
+            <div class="col-md-4">
+                <button class="fsbutton" onclick="googleSearch(59)">cmd page #2</button>
+            </div>
+        </div>
         <div class="author">
             <h5>Developed by Parth Pawar</h5>
         </div>
@@ -328,6 +336,12 @@
                     break;
                 case 57:
                     searchQuery = 'site:' + target + ' inurl:backup';
+                    break;
+                 case 58:
+                    searchQuery = 'site:' + target + ' inurl:index.php?command=';
+                    break;
+                 case 59:
+                    searchQuery = 'site:' + target + ' inurl:index.php?cmd=';
                     break;
                 default:
                     searchQuery = '';
